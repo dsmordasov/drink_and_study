@@ -9,6 +9,8 @@ Tl;dr: Want your child to (have a chance to statistically) perform well in schoo
 Two reports were made, the first one focusing on exploratory data analysis (data mining), and the second one on applying machine learning algorithms to the data. The main results of these are presented below, with a more thorough write-up featured in the `.pdf` files in this repo.
 
 ### 1 - Feature extraction and visualisation
+We were free to choose our own dataset for this course. I chose this, as my previous experience with machine learning allowed me to see that the future tasks (such as linear regression) would be possible with it, and that the subject matter does not require much field-specific subject knowledge that would prevent us from extracting insights from the data.
+
 Taken from the investigation by Cortez and Silva [[1]](#1), this investigation focuses on only 13 of the 33 available attributes of the students in the dataset [[2]](#2), as only these 13 are considered by us to be within the parent's control. Categorical labels (e.g. type of parent's work) were one-hot encoded into nominal boolean variables. For PCA and ML, attributes were standardized so as to have zero mean and unit variance (μ = 0, δ = 1).
 
 All of the attributes were discrete, and were either left as a boolean value (e.g. nominal - availability of internet at home), one-hot encoded (type of parent's education)  (and based on their type (e.g. nominal - availability of internet at home, ordinal - level of parent's education, ratio - final student grade)
