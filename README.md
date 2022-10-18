@@ -3,7 +3,7 @@ A project in which a set of socio-economic factors of high-school students in Po
 Tl;dr: Want your child to (have a chance to statistically) perform well in school?
 - Make sure both you and your spouse are educated (the more the better). Bonus points if you are both teachers. 
 - Ensure that your child drinks alcohol as infrequently as possible (especially on workdays). 
-- Situate yourself in an urban setting (i.e. close to school if that's the case).
+- Situate yourself in an urban setting (i.e. close to school in this case).
 - Provide your child with access to internet.
 
 Two reports were made, the first one focusing on exploratory data analysis (data mining), and the second one on applying machine learning algorithms to the data. The main results of these are presented below, with a more thorough write-up featured in the `.pdf` files in this repo.
