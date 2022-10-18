@@ -42,7 +42,7 @@ The ANN with one node ended up outperforming more complex ANN models, and was it
 
 The conclusions made in '1 - Feature extraction and visualisation' have been largely confirmed by the magnitudes of the weights of the trained linear regression model.
 
-If you got to reading it this far, you should now possess some knowledge to help make you a better future parent of the next super-student! If you already have kids, I hope it went well.
+If you got to reading it this far, you should now possess some knowledge to help make you a better future parent of the next super-student! If you already have kids, I hope it went (or is going) well.
 
 ### Files
 - `student-por.csv` and `student-mat.csv` contain the dataset used in this investigation, holding various attributes and grades for either Portuguese or Maths subjects respectively.  
