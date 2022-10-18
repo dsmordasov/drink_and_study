@@ -17,11 +17,11 @@ All of the attributes were discrete, and were either left as a boolean value (e.
 
 <img src="plots/correlation_heatmap-1.png" alt="Correlation heatmap">
 
-Limiting ourselves to the bottom row in the heatmap above, we can see the correlations ρ between a student's final (Portuguese) grade and a certain attribute. It is clearly discernible from the magnitudes of ρ that the level of education of mother and father (Medu, Fedu), daily and weekly alcohol consumption (Dalc, Walc), proximity to school by living in the city (urban) and access to internet (online).
+Limiting ourselves to the bottom row in the heatmap above, we can see the correlations ρ between a student's final (Portuguese) grade and a certain attribute. It is clearly discernible from the magnitudes of ρ that the level of education of mother and father (Medu, Fedu), daily and weekly alcohol consumption (Dalc, Walc), proximity to school by living in the city (urban) and access to internet (online). Mathematics dataset showed similar insights, except for one...
 
 <img src="plots/alcohol_observation.png" alt="Funny excerpt from Report 1">
 
-The above excerpt is a classic showcase of my technical writing. I like to think I keep my reports human, whilst maintaining professionality. You judge yourself.
+The above excerpt is a classic example of my technical writing. I like to think I keep my reports human, whilst maintaining professionality. You judge yourself.
 
 <img src="plots/parents_job-1.png" alt="Parents job boxplots">
 
