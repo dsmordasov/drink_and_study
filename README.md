@@ -6,6 +6,8 @@ Tl;dr: Want your child to (have a chance to statistically) perform well in schoo
 - Situate yourself in an urban setting (i.e. close to school if that's the case).
 - Provide your child with access to internet.
 
+Two reports were made, the first one focusing on exploratory data analysis (data mining), and the second one on applying machine learning algorithms to the data. The main results of these are presented below, with a more thorough write-up featured in the `.pdf` files in this repo.
+
 ### 1 - Feature extraction and visualisation
 Taken from the investigation by Cortez and Silva [[1]](#1), this investigation focuses on only 13 of the 33 available attributes of the students in the dataset [[2]](#2), as only these 13 are considered by us to be within the parent's control. Categorical labels (e.g. type of parent's work) were one-hot encoded into nominal boolean variables. For PCA and ML, attributes were standardized so as to have zero mean and unit variance (μ = 0, δ = 1).
 
