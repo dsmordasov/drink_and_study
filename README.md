@@ -21,6 +21,8 @@ Limiting ourselves to the bottom row in the heatmap above, we can see the correl
 
 <img src="plots/alcohol_observation.png" alt="Funny excerpt from Report 1">
 
+The above excerpt is a classic showcase of my technical writing. I like to think I keep my reports human, whilst maintaining professionality. You judge yourself.
+
 <img src="plots/parents_job-1.png" alt="Parents job boxplots">
 
 The boxplots above also show that students whose parents were teachers tended to perform better. An example of principal components discerned are 1:[workday alcohol consumption, weekday alcohol consumption, if parents are together] and 2:[if father works in healthcare, if mother works in healthcare, internet avaiability], decreasing the dimensionality of the (transformed) dataset from 27 to 14 components based on a 90% variance explained threshold.
