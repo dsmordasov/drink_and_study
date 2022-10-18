@@ -6,14 +6,14 @@ Tl;dr: Want your child to (have a chance to statistically) perform well in schoo
 - Situate yourself in an urban setting (i.e. close to school if that's the case).
 - Provide your child with access to internet.
 
-### Feature extraction and visualisation
+### 1 - Feature extraction and visualisation
 Taken from the investigation by Cortez and Silva [[1]](#1), this investigation focuses on only 13 of the 33 available attributes of the students in the dataset [[2]](#2), as only these 13 are considered by us to be within the parent's control. Categorical labels (e.g. type of parent's work) were one-hot encoded into nominal boolean variables. For PCA and ML, attributes were standardized so as to have zero mean and unit variance (μ = 0, δ = 1).
 
 All of the attributes were discrete, and were either left as a boolean value (e.g. nominal - availability of internet at home), one-hot encoded (type of parent's education)  (and based on their type (e.g. nominal - availability of internet at home, ordinal - level of parent's education, ratio - final student grade)
 
 <img src="plots/correlation_heatmap-1.png" alt="Correlation heatmap">
 
-Limiting ourselves to the bottom row in the heatmap above, we can see the correlations ρ between a student's final (Portuguese) grade and a certain attribute. It is clearly discernible from the magnitudes of ρ that the level of education of mother and father (Medu, Fedu), daily and weekly alcohol consumption (Dalc, Walc), proximity to school by living in the city (urban) and access to internet (online)
+Limiting ourselves to the bottom row in the heatmap above, we can see the correlations ρ between a student's final (Portuguese) grade and a certain attribute. It is clearly discernible from the magnitudes of ρ that the level of education of mother and father (Medu, Fedu), daily and weekly alcohol consumption (Dalc, Walc), proximity to school by living in the city (urban) and access to internet (online).
 
 <img src="plots/alcohol_observation.png" alt="Funny excerpt from Report 1">
 
@@ -24,12 +24,19 @@ The boxplots above also show that students whose parents were teachers tended to
 <img src="plots/pca_ve-1.png" alt="PCA variance explained.">
 
 
-### Classification and regression
+### 2 - Regression and classification
+
+In the regression problem, an artificial neural network (ANN) with one-to-five nodes in its one hidden layer, a regularised linear regression model and a baseline model (featureless linear regression model that predicts the mean) were used. The classification task featured a similar three-model setup.
 
 For classification purposes, the grade (out of 20) was transformed into a boolean pass/fail label based on a boundary of 10 points, a method employed in [[1]](#1). 
 
-<img src="plots/grades_distro-1" alt="Grades distribution">
+<img src="plots/grades_distro-1.png" alt="Grades distribution">
 
+The ANN with one node ended up outperforming more complex ANN models, and was itself outperformed by a linear regression model. The results overall helped hammer in the often-stated fact of machine learning that not always is a neural network necessary for solving a problem and that a simpler, more conventional machine learning algorithm may be often sufficient. The ANN for both regression and classification problems seems to have trained itself to just pick the mean of the dataset, such as the baseline model. Of course, these conclusion are affected by the fact that both my classmate and I lack experience training and optimising neural networks. 
+
+The conclusions made in '1 - Feature extraction and visualisation' have been largely confirmed by the magnitudes of the weights of the trained linear regression model.
+
+If you got to reading it this far, you should now possess some knowledge to help make you a better future parent of the next super-student! If you already have kids, I hope it went well.
 
 ### Files
 - `student-por.csv` and `student-mat.csv` contain the dataset used in this investigation, holding various attributes and grades for either Portuguese or Maths subjects respectively.  
