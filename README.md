@@ -1,6 +1,6 @@
 A project in which a set of socio-economic factors of high-school students in Portugal are investigated with their relation to the student's performance, potentially giving some advice to future parents who would like their children to perform well academically. Done as an assignment for the 'Introduction to Machine Learning & Data Mining' MSc course under DTU, with my classmate Mario Cesar Rodriguez.
 
-Tl;dr: Want your child to (have a chance to statistically) perform well in school?
+Tl;dr: Want your child to (have a higher likelyhood to) perform well in school?
 - Make sure both you and your spouse are educated (the more the better). Bonus points if you are both teachers. 
 - Ensure that your child drinks alcohol as infrequently as possible (especially on workdays). 
 - Situate yourself in an urban setting (i.e. close to school in this case).
