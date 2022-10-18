@@ -21,14 +21,14 @@ Limiting ourselves to the bottom row in the heatmap above, we can see the correl
 
 The boxplots above also show that students whose parents were teachers tended to perform better. An example of principal components discerned are 1:[workday alcohol consumption, weekday alcohol consumption, if parents are together] and 2:[if father works in healthcare, if mother works in healthcare, internet avaiability], decreasing the dimensionality of the (transformed) dataset from 27 to 14 components based on a 90% variance explained threshold.
 
-<img src="plots/pca-ve.png" alt="PCA variance explained.">
+<img src="plots/pca_ve-1.png" alt="PCA variance explained.">
 
 
 ### Classification and regression
 
 For classification purposes, the grade (out of 20) was transformed into a boolean pass/fail label based on a boundary of 10 points, a method employed in [[1]](#1). 
 
-<img src="plots/grades-distro-1" alt="Grades distribution">
+<img src="plots/grades_distro-1" alt="Grades distribution">
 
 
 ### Files
